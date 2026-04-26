@@ -1,0 +1,94 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+myvenv/
+env/
+ENV/
+.venv/
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+.coverage
+.coverage.*
+htmlcov/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Environment variables
+.env
+.env.*
+
+# VS Code / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# ML / AI specific
+# Datasets
+data/
+datasets/
+
+# Model checkpoints / weights
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.h5
+*.onnx
+
+# Hugging Face cache
+.cache/
+huggingface/
+transformers_cache/
+
+# Training outputs
+runs/
+outputs/
+wandb/
+mlruns/
+
+# TensorBoard
+events.out.tfevents.*
+
+# Temporary files
+tmp/
+temp/
+
+# API keys / secrets
+secrets.json
+
+# Docker
+*.env
+docker-compose.override.yml
+
+# FastAPI / Uvicorn
+*.pid
+*.db
+sqlite.db
+
+# Misc
+*.bak
+*.tmp
